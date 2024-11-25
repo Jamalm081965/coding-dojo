@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#search-bar {
+    flex: 1;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.definitions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.definition-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.definition-card a {
+    color: blue;
+    text-decoration: underline;
+}
+
+aside {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.like-btn {
+    background-color: yellow;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}

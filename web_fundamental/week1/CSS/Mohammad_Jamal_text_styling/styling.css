@@ -1,0 +1,18 @@
+h1 {
+    color: aqua;
+    background-color: black;
+    text-align: left;
+}
+h1 span {
+    color: seagreen;
+}
+h2 {
+    color: orchid;
+    background-color: chartreuse;
+    text-align: center;
+}
+h3 {
+    color: purple;
+    background-color: navajowhite ;
+    text-align: right;
+}

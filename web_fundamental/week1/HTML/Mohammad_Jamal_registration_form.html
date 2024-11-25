@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <h1>Registration Form</h1>
+    
+<form action="/proccess " method="post"> 
+    <div> 
+        <label>First Name:*</label>
+        <input type="text" name="name" placeholder="Your Name">
+    </div>
+    
+    <div> 
+        <label>Last Name:*</label>
+        <input type="text" name="name" placeholder="Your Name">
+    </div>
+    
+    <div> 
+        <label>Email:*</label>
+        <input type="text" name="email" placeholder="Your Email">
+    </div>
+    
+    <div> 
+        <label>Password:*</label>
+        <input type="password" name="password" placeholder="FakePassword123">
+    </div>
+    
+    <div> 
+        <label>Confirm Password:*</label>
+        <input type="password" name="name" placeholder="confirmpassword">
+    </div>
+    
+    <div> 
+        <label>Birthday</label>
+        <input type="date" name="Birthday" placeholder="mm/dd/yyyy">
+    </div>
+
+    <label>Gender Identity</label>
+
+    <div>
+        <input type="radio">
+        <label>Male</label>
+        <input type="radio">
+        <label>Female</label>
+        <input type="radio">
+        <label>Non-binary</label>
+        <input type="radio">
+        <label>I Prefer not to answer</label>
+    </div>
+    
+    <label>A short description about myself</label>
+    
+    <div>
+        <textarea name="commet" cols="30" row="5"></textarea>
+    </div>
+    
+    <label>Favorite Language</label>
+        <select name="language">
+        <option value="JavaScript">JavaScript</option>
+        <option value="HTML">Html</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</optio>
+        </select>
+
+        <div>
+        <input type="checkbox"></input>
+        <lable>Yes, I would like to receive periodic email update</lable>
+    </div>
+
+    <div>
+        <input type="submit" value="Creat Account">
+    </div>
+
+    <lable>* Indicates a required field</lable>
+</form>
