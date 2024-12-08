@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head> <!-- meta data-->
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="easybay.css">
+            <title>EasyBay</title>
+        </head>
+<body class="Main_container"> <!--main layout-->
+    <div>
+            <div class="nav_bar"> 
+                <div id="logo_header">
+                    <img src="leaf.png" alt="leaf" id="logo">
+                    <h2 Id="header">EasyBay</h2>
+                </div>
+                <div id="search_bar">
+                    <input placeholder="Search for anyting">
+                    <img src="search-dark.png" alt="magnify">
+                    <p>Sign In</p>
+                    <img src="cart-dark.png" alt="cartpic" id="cart" onclick="alert('This page says your cart is empty')">
+                </div>
+
+            </div>
+            <div class="list">
+                <P>Aeonium</P>
+                <P>Andormischus</P>
+                <P>Agave</P>
+                <P>Aloe</P>
+                <P>Anacampseros</P>
+                <P>Aristaloe</P>
+                <P>More...</P>
+            </div>
+    </div>
+    
+            <h3>Your Source for Serious Succulent Specialties</h3>
+    
+    <div class="center_content">
+        <div id="discover_txt">
+
+            <h4>Discover succulent varieties one pot or rack at a time!</h4>
+            <h5> Discover <img src="arrow-light.png" alt="arrow.pic" id="arrowPic"> </h5>
+        </div>
+        <div class="discover_pic">
+            <img src="succulents-1.jpg" alt="SucculentPic1" id="SucculentPic1" 
+                onmouseover="addSucculentPic2(this)" 
+                onmouseleave="removeSucculentPic2(this)">
+            <img src="succulents-2.jpg" alt="SucculentPic2" id="SucculentPic2" style="display: none;">
+        </div>
+        <!-- <div class="discover_pic" >
+            <img src="succulents-1.jpg" alt="SucculentPic1" id="SucculentPic1" onmouseover="addSucculentPic2(this)" onmouseleave="removeSucculentPic2(this)">
+            <img src="succulents-2.jpg" alt="SucculentPic2" id="SucculentPic2">
+        </div> -->
+        <div id="aloe_soothing_ctent">
+            <div id="cntr_right">
+                <img src="aloe-m.jpg" alt="aloePic" id="aloePic">
+                <P id="soothing">Soothing aloe<img src="arrow-light.png" alt="arrow.pic" id="arrowPicaloe"></P>
+            </div>
+        </div>
+    </div>
+    <div id="product_list">
+        <div class="list2">
+            <img src="aeonium-s.jpg" alt="aeoniumPic" class="flowerPic">
+            <p>Aeonium</p>
+        </div>
+
+        <div class="list2">
+            <img src="aloe-s.jpg" alt="agavePic" class="flowerPic">
+            <p>Aloe</p>
+        </div>
+
+        <div class="list2">
+            <img src="cactus-s.jpg" alt="cactusPic" class="flowerPic">
+            <p>Cactus</p>
+        </div>
+        
+        <div class="list2">
+            <img src="echeveria-s.jpg" alt="echeveriaPic" class="flowerPic">
+            <p>Echeveria</p>
+        </div>
+        
+        <div class="list2">
+            <img src="sedum-s.jpg" alt="sedumPic" class="flowerPic">
+            <p>Sedum</p>
+        </div>
+        <div class="list2">
+            <img src="sempervivum-s.jpg" alt="sempervivumPic" class="flowerPic">
+            <p>sempervivum</p>
+        </div>
+    </div>
+    <div class="caution-box" id="cautionBox">
+        <p>⚠️ This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in out <a>cookie policy</a></p>
+        <button onclick="closeCautionBox()">I Accept</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

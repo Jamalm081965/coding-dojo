@@ -1,0 +1,227 @@
+/* Main Container*/
+.Main_container {
+    width: 1200px;
+    height: 800px;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}  
+/* styling the logo */
+#logo {
+    background-color: aqua;
+    
+}
+/* logo and header style*/
+#logo_header {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+/* logo sizing */
+#logo {
+    width: 50px;
+    height: 40px;
+    display: flex;
+
+}
+
+/* styling search bar*/
+#search_bar {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* arounding the input tag */
+input {
+    width: 350px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+/* setting up the entire nav bar */
+.nav_bar {
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+/* setting up category */
+.list {
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+
+}
+
+/* sub header */
+h3 {
+    width: 800px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* setting up the center content */
+.center_content {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+/* styling discover text left div */
+#discover_txt {
+    width: 250px;
+    height: 260px;
+    background-color: aqua;
+}
+/* styling header h5 */
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+/* styling the header 4 */
+h4  {
+    margin: 30px;
+    font-size: 25px;
+}
+/* styling pic center div */
+.discover_pic, #SucculentPic1 , #SucculentPic2 {
+    width: 250px;
+    height: 260px;
+    
+}
+/* styling main div for right side div */
+#aloe_soothing_ctent {
+    width: 250px;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+}
+/* styling right div */
+#cntr_right {
+    width: 295px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+/* styling aloe pic in the right div */
+#aloePic {
+    width: 200px;
+    height: 210px;
+}
+/* styling text in the right bottom div */
+#soothing {
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* styling  arrow in the right bottom div */
+#arrowPicaloe {
+    width: 30px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+/* styling the  product list div */
+#product_list {
+    width: 800px ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly ;
+    align-items: center;
+    background-color:aqua;
+}
+/* styling the flower  pic */
+.flowerPic { 
+    width: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Style for the caution box */
+.caution-box {
+    position: fixed;
+    bottom: 10px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 90px;
+    padding: 10px;
+    background-color: lightcyan;
+    border: 1px solid black;
+    text-align: center;
+    display: none;   
+}
+
+.caution-box button {
+    margin-top: 5px;
+    padding:4px 16px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    font-weight:800;
+}
+
+/*.caution-box button:hover {
+    background-color: #b71c1c;
+}*/
+
+/* Cart Container Styling */
+.cart-container {
+    text-align: center;
+}
+
+/* Cart Icon Styling */
+#cart {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover Effect for Cart Icon */
+#cart:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Instruction Text Styling */
+.cart-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
